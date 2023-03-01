@@ -39,7 +39,7 @@ jobs:
               run: dotnet build $SOLUTION --configuration $BUILD_CONFIG -p:Version=$BUILD_VERSION --no-restore
 
             - name: Publish to GitHub Packages
-              run: dotnet nuget push **\*.nupkg --api-key ${{ secrets.AUTH_TOKEN }} --source https://nuget.pkg.github.com/fwRelik/index.json
+              run: dotnet nuget push **\*.nupkg --api-key ${{ secrets.ACTION_TOKEN }} --source https://nuget.pkg.github.com/fwRelik/index.json
 
             - name: Publish to NuGet
               run: dotnet nuget push **\*.nupkg --api-key ${{ secrets.NUGET_TOKEN }} --source https://api.nuget.org/v3/index.json
