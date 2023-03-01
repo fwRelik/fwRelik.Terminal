@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.2.2</Version>
+    <PackageIcon>byfwRelik.jpg</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/fwRelik/fwRelik.Terminal</RepositoryUrl>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
+    <Title>fwRelik.Terminal</Title>
+    <Company>fwRelik</Company>
+    <Description>Makes it easier to enter commands and process data from output.</Description>
+    <PackageProjectUrl>https://github.com/fwRelik/fwRelik.Terminal</PackageProjectUrl>
+    <PackageTags>fwRelik, Terminal</PackageTags>
+    <PackAsTool>False</PackAsTool>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Assets\byfwRelik.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
