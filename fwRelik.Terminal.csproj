@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.2.3</Version>
+    <Version>0.2.4</Version>
     <PackageIcon>byfwRelik.jpg</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/fwRelik/fwRelik.Terminal</RepositoryUrl>
@@ -17,6 +17,7 @@
     <PackageProjectUrl>https://github.com/fwRelik/fwRelik.Terminal</PackageProjectUrl>
     <PackageTags>fwRelik, Terminal</PackageTags>
     <PackAsTool>False</PackAsTool>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
