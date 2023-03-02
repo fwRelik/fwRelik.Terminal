@@ -7,7 +7,6 @@ on:
 env:
     BUILD_CONFIG: 'Release'
     SOLUTION: 'fwRelik.Terminal.sln'
-    CSPROJ: 'fwRelik.Terminal.csproj'
 
 jobs:
     build_and_publish:
